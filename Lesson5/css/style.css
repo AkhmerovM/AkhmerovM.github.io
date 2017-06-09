@@ -1,0 +1,138 @@
+.container
+{
+border-bottom: 1px solid black;
+height: 100px;
+}
+.container__logo
+{
+margin-top: 37px;
+margin-left: 117px;
+float: left;
+}
+.container__mainMenu
+{
+margin-left: 120px;	
+float:left;
+margin-top: 23px;
+
+}
+.container__item
+{
+	list-style: none;
+	display: inline;
+	margin: 30px 15px;
+	font-weight: bold;
+	color:black;
+}
+.container__link
+{
+	text-decoration: none;
+}
+.container__cart
+{
+	display: inline;
+	float: right;
+	margin: 37px 115px;
+	margin-left: 0px;
+}
+.container__text
+{
+	text-transform: uppercase;
+}
+.container__number
+{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: #e3e8f0;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.container__button
+{
+	display: inline;
+	padding: 10px 17px;
+	border-radius: 50px 50px 50px 50px;
+	border:1px solid #e3e8f0;
+text-transform: uppercase;
+text-decoration: none;
+}
+.main
+{
+	height: 50px;
+	width: 100%;
+}
+.main__list
+{
+	margin-top: 25px;
+	float: left;
+}
+.main__item
+{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	margin:0 15px;
+	text-transform: uppercase;
+}
+.main__link
+{
+
+text-decoration: none;
+}
+.main__search
+{
+	float: right;
+}
+.main__support
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right:32px ;
+
+}
+.main__input
+{	background: url("img/mainMenu/search-icon.png") no-repeat 4px;
+	height: 50px;
+	margin-right: 115px;
+}
+.telephone
+{
+	height: 500px;
+	background-color: #1c1e23;
+	color: white;
+}
+.telephone__name
+{
+font-size: 42px ;
+width:300px;
+padding-top: 110px;
+padding-left:215px;
+font-weight: bold;
+}
+.telephone__description
+{
+	padding-top: 32px;
+padding-left:215px;
+width:465px;
+font-size: 16px;
+}
+.telephone__buy
+{
+	padding: 17px 50px;
+border-radius: 50px 50px 50px 50px;
+text-transform: uppercase;
+text-decoration: none;
+background-color: #2754eb;
+color: white;
+margin-top: 65px;
+margin-left:215px;
+}
+.telephone__img
+{
+	float:right;
+	padding-top: 65px;
+	padding-right: 110px;
+}
