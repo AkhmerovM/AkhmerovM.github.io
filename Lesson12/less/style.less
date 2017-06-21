@@ -1,0 +1,48 @@
+body {
+	background: #aeaeae;
+}
+a:hover{
+	text-decoration: none;
+}
+.link {
+	width: 150px;
+	height: 50px;
+	display: block;
+ 	color: white;
+	margin: 20px auto;
+	border-radius:  20px;
+	text-align: center;
+	padding-top: 12px;
+	transition: all 0.5s;
+	 background: linear-gradient(to top, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+	 &:hover {
+	 	font-weight: bold;
+	 	background:white;
+	 	color: black;
+	 	font-size: 20px;
+	 	padding-top: 10px;
+	 }
+}
+.popup {
+	width: 500px;
+	height: 300px;
+	position: fixed;
+	transform:translateX(-50%) translateY(-150%);
+	left: 50%;
+	top:80px;
+	padding-top: 50px;
+	text-align: center;
+	background: linear-gradient(to top, #fefcea, #f1da36);
+	border-bottom: 2px solid white;
+	transition: all 0.2s;
+	&:target {
+		transform:translateX(-50%) translateY(0%);
+	}
+	&-close {
+		margin-top: 0;
+		position: absolute;
+		top:0;
+		right: 10px;
+		font-size: 30px;
+	}
+}
