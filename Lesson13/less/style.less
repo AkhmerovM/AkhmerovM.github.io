@@ -1,0 +1,194 @@
+@font-face {
+	font-family: 'PantonRegular';
+	src: url('../fonts/Panton-Regular.eot');
+	src: url('../fonts/Panton-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-Regular.woff') format('woff'),
+		url('../fonts/Panton-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PantonSemiBold';
+	src: url('../fonts/Panton-SemiBold.eot');
+	src: url('../fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-SemiBold.woff') format('woff'),
+		url('../fonts/Panton-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Panton-light';
+	src: url('../fonts/Panton-Light.eot');
+	src: url('../fonts/Panton-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-Light.woff') format('woff'),
+		url('../fonts/Panton-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Panton-black';
+	src: url('../fonts/Panton-Black.eot');
+	src: url('../fonts/Panton-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-Black.woff') format('woff'),
+		url('../fonts/Panton-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Panton-extrabold';
+	src: url('../fonts/Panton-ExtraBold.eot');
+	src: url('../fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Panton-ExtraBold.woff') format('woff'),
+		url('../fonts/Panton-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+a:hover {
+	text-decoration: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+	.header-top {
+		&_logo {
+			display: inline-block;
+			.logo {
+			display: inline-block;
+			text-transform: uppercase;
+			font-family: "Panton-extrabold";
+			font-size: 2.4rem;
+			width: 370px;
+			height: 110px;
+			text-align: center;
+			color: #363636;
+			}
+		}
+		&_tel {
+			float: right;
+			font-family: "Panton-extrabold";
+			font-size: 3rem;
+		}
+		&_call {
+			float: right;
+			font-family: "PantonSemiBold";
+			clear: right;
+			color: #363636;
+			text-align: center;
+			line-height: 40px;
+			font-size: 2.6rem;
+			border-radius: 10px;
+			border-width: 2px;
+			border-color:  #282828;
+			border-style: solid;
+			width: 263px;
+			height: 47px;
+		}
+	}
+	.header-bottom {
+		 
+		background-color: rgb(37, 41, 45);
+		vertical-align: middle;
+		&_list {
+			font-family: Panton-light;
+			
+			font-size: 3rem;
+			list-style: none;
+			.item {
+				display: inline-block;
+				margin: 10px;
+				margin-top: 24px;
+				.link {
+					color: white;
+				}
+			}
+		}
+	}
+	.main {
+		height: 1157px;
+		background-size: cover;
+		background: url("../img/bg.png") no-repeat;
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+		&_name {
+		font-size: 5rem;
+		padding-top: 15rem;
+		}
+		&_description {
+		font-family: "Panton-black";
+		font-size: 4rem;
+
+		}
+		&_add {
+		font-family: "PantonSemiBold";
+		font-size: 2.4rem;
+		width: 60rem;
+		margin: 0 auto;
+
+		}
+		&_video {
+			padding-top: 20rem;
+		font-family: "PantonSemiBold";
+		font-size: 2.4rem;
+		text-transform: none;
+		}
+		&_arrow {
+		position: relative;
+		top: -2rem;
+		right: -25rem;
+		}
+		&_btn {
+		text-transform: uppercase;
+		padding: 1rem 2rem;
+		color: white;
+		margin: 0 auto;
+		display: block;
+		background:  #059feb;
+		border-radius: 3rem;
+		width: 350px;
+		height: 66px;
+		font-family: "Panton-extrabold";
+		font-size: 3rem;
+		}
+		&_mousedop {
+			font-size: 2.4rem;
+			font-family: "PantonSemiBold" ;
+			padding-top: 10rem;
+		}
+	}
+	.aboutus {
+		text-align: center;
+		&_name {
+			margin-top: 2rem;
+			font-family: "Panton-extrabold";
+			font-size: 3.6rem;
+			color: rgb(54, 54, 54);
+			text-transform: uppercase;
+		}
+		&_block {
+			margin-top: 3rem;
+			.zag {
+				padding-left: 1rem;
+				text-align: left;
+				border-left: 5px solid  #059feb;
+				p {
+					font-family: "Panton-extrabold";
+					font-size: 3rem;
+					text-transform: uppercase;
+				}
+			}
+			.info {
+				margin-top: 1rem;
+				font-family: "PantonSemiBold";
+					font-size: 1.8rem;
+					text-align: left;
+					margin-bottom: 10rem;
+			}
+		}
+	}
+}
