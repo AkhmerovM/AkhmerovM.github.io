@@ -7,6 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+
+<script>
+$('#myTab a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})</script>
 <div class="container">
 	<div class="header ">
 		<div class="mail ">info@it-rules.ru</div>
@@ -42,7 +50,6 @@
 					<a href="" class="zakaz">Заказать </a>
 				</div>
 					<p class="addzakaz col-md-5">Закажите бесплатное техническое задание!</p>
-					<img src="img/photo/1.png" alt="" class="man1 col-md-3">
 				</div>
 				<div class="row">
 				<div class="explanation1 col-md-5"><span> ERP</span> - прибыль и ваше свободное время<br>
@@ -110,6 +117,7 @@
 				<p class="name">Продажи</p>
 				<img src="img/icons/6.png" alt="">
 				<p class="zad"><span>Задача:</span> Увеличение повторных продаж на 30% за полгода!</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение:</span> Автоматизация воронки продаж</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div></div>
@@ -118,6 +126,7 @@
 				<p class="name">Поддержка продаж</p>
 				<img src="img/icons/7.png" alt="">
 				<p class="zad"><span>Задача:</span> Поддержка до 100 клиентов одним менеджером!</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение: </span>Система управления взаимоотношениями с клиентом CRM</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div></div>
@@ -126,6 +135,7 @@
 				<p class="name">Логистика</p>
 				<img src="img/icons/8.png" alt="">
 				<p class="zad"><span>Задача:</span> Уменьшение затоваривания складов на 1/4 в течение б мес.!</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение:</span> ABC анализ товарооборота</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div>
@@ -137,8 +147,9 @@
 				<p class="name">Производство</p>
 				<img src="img/icons/9.png" alt="">
 				<p class="zad"><span>Задача:</span> Сокращение ФОТ производственных рабочих на 10%</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение:</span> Уменьшение переработок до 0</p>
-				<p class="raz">Развернуть</p>
+				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div>
 			</div>
 			<div class="addition col-md-4">
@@ -147,6 +158,7 @@
 				<img src="img/icons/10.png" alt="">
 				<p class="zad"><span>Задача:</span> Сокращение срывов сроков
 по подрядам в два раза за 9 месяцев</p>
+<div class="krug"></div>
 				<p class="resh"><span>Решение:</span> Система взаимодействия
 с заказчиками и подрядчиками</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
@@ -157,6 +169,7 @@
 				<img src="img/icons/11.png" alt="">
 				<p class="zad"><span>Задача:</span> Повышение индивидуальных
 KPI сотрудников до 15%</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение:</span> Индивидуальны план
 развития компетенций сотрудника</p>
 				<p class="raz">Развернуть</p>
@@ -169,6 +182,7 @@ KPI сотрудников до 15%</p>
 				<p class="name">Аналитика</p>
 				<img src="img/icons/12.png" alt="">
 				<p class="zad"><span>Задача:</span> Повышение качества управленческих решений в разы</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение: </span>Персонолизированные KPI для вашего бизнеса</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div></div>
@@ -176,7 +190,8 @@ KPI сотрудников до 15%</p>
 			<div class="inner">
 				<p class="name">Коммуникации</p>
 				<img src="img/icons/13.png" alt="">
-				<p class="zad"><span>Задача:</span> Повышение скорости согласования документов в 3 раза
+				<p class="zad"><span>Задача:</span> Повышение скорости согласования документов в 3 раза</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение: </span>Персонолизированные KPI для вашего бизнеса</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div></div>
@@ -185,6 +200,7 @@ KPI сотрудников до 15%</p>
 				<p class="name">Инфраструктура</p>
 				<img src="img/icons/14.png" alt="">
 				<p class="zad"><span>Задача: </span>Снижение затрат на обслуживание ИТ на 20%</p>
+				<div class="krug"></div>
 				<p class="resh"><span>Решение: </span>Система размещения и оценок ИТ заявок HelpDesk</p>
 				<p class="raz">Развернуть<i class="fa fa-angle-down" aria-hidden="true"></i></p>
 			</div>
@@ -212,15 +228,17 @@ KPI сотрудников до 15%</p>
 			<img src="img/logo1/SAP_AG.png" alt="">
 		</div>
 		<div class="row">
-			<a href="#">Система ERP</a>
-			<a href="#">Система  CRM</a>
-			<a href="#">BI</a>
-			<a href="#">CSM</a>
-			<a href="#">Система WMS</a>
-			<a href="#">ИТ Инфраструктура</a>
+			<a data-toggle="tab" href="#ERP">Система ERP</a>
+			<a data-toggle="tab" href="#CRM">Система  CRM</a>
+			<a data-toggle="tab" href="#BI">BI</a>
+			<a data-toggle="tab" href="#CSM">CSM</a>
+			<a data-toggle="tab" href="#WMS">Система WMS</a>
+			<a data-toggle="tab" href="#IT">ИТ Инфраструктура</a>
 		</div>
+		<div class="tab-content">
+<div class="tab-pane active" id="ERP">
 		<p class="add">ERP - (Entreprise resurs planning) система планирования ресурсами предприятия.
-Изначально узкоспециализированный класс систем, для планирования производства.</p>
+		Изначально узкоспециализированный класс систем, для планирования производства.</p>
 		<p class="dop">В современном прочтении - это комплексная информационная система для учета ЛЮБОЙ хозяйственной деятельности компании:</p>
 		<div class="listik">
 			<ul class="list">
@@ -232,6 +250,522 @@ KPI сотрудников до 15%</p>
 				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Взаимодействие с клиентами.</li>
 			</ul>
 		</div>
+		<div class="row">
+		<div class="pluses">
+					<p class="plus">Выгоды:</p>
+						<ul class="pluslist">
+							<li class="col-md-4"><span>1</span>
+								<div class="item"> Освободит время сотрудников  на обработку документов. Информация вносится в систему один раз</div>
+		
+							</li>
+							<li class="col-md-4"><span>2</span>
+								<p class="item">	 	Повысит прозрачность бизнеса. В режиме реального времени видно состояние бизнеса – кредиторка, неликвиды, проблемные заказы</p>
+							</li>
+							<li class="col-md-4"><span>3</span>
+								<p class="item">	 	Увеличит свободные денежные средства – более эффективное управление активами (товары на складах, предоплаченные заказы на поставку, основные средства)</p>
+							</li>
+							<li class="col-md-4"><span>4</span>
+								<p class="item">	 	Улучшит качество работы с клиентами – более детальная информация для клиента о его заказах</p>
+							</li>
+							<li class="col-md-4"><span>5</span>
+								<p class="item">	  	Уменьшит затраты на сопровождение и техническую поддержку</p>
+							</li>
+						</ul>
+		
+				</div>
+			</div>
+		<div class="row">
+		    <div class="companies">
+					<img src="img/logo1/logo-oracle (1).png" alt="">
+					<img src="img/logo1/SAP_AG.png" alt="">
+					<img src="img/logo1/1C_Company_-_Logo_(English_Version).jpg" alt="">
+					<img src="img/logo1/gal.png" alt="">
+				</div>
+		</div>
+	</div>
+
+
+	<div class="tab-pane" id="CRM">
+		<p class="add">CRM (Customer Relationship Management) Система управления взаимоотношениями с клиентом. Данные системы выделились в отдельный класс из ERP систем, из-за того, что стратегии продаж стали усложняться и потребовался учет :</p>
+		<div class="listik">
+			<ul class="list">
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Действия с клиентами ( разговоры, емейлы, походы в баню и любая другая активность)</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Обратная связь от клиентов на рекламу (акции, рассылки, спец предложения и т.д.)</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Анализ клиентов (пол, возраст, регион, вид деятельности, где увидел рекламу, что купил и т.д.)</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Анализ результатов продаж (эффективность акций, реклама на интернет ресурсах, продвижение в поисковых системах,  соц. сети и т.д.</li>
+			</ul>
+		</div>
+		<p class="dop">CRM является частью комплексных систем автоматизации так и может являться самостоятельным продуктом. Все крупные игроки поставляют на рынок свои решения. SAP – CRM, Oracle – Siebel, Microsoft – Dynamix CRM, 1C-CRM. Так же есть разработчики предлагающие отдельные продукты , как бесплатные решения так и решения для очень крупных компаний. На российском рынке представлено более 30 готовых CRM решений. Большинство решений имеют «локальную» версию и решение «по запросу» - аренда рабочего места в облаке.</p>
+<div class="pluses">
+			<p class="plus">Выгоды:</p>
+<div class="row">
+<ul class="pluslist">
+			<li class="col-md-4"><span>1</span>
+				<p class="item">	Повышает прозрачность вашей клиентской базы. Вы всегда знаете, что происходит у ваших клиентов. Когда и кто и с ними переписывался, общался, встречался, послушать звонки</p>
+			</li>
+			<li class="col-md-4"><span>2</span>
+				<p class="item">	Снижает трудозатраты по проведению рассылок, акций и опросов. Система автоматически формирует рассылки и опросы при работе с новыми клиентами</p>
+			</li>
+			<li class="col-md-4"><span>3</span>
+				<p class="item">Повышает качество обратной связи. Видны причины появления недовольных клиентов. Также автоматизированные опросы позволяют выявить причины недовольства и устранить их	</p>
+			</li>
+			<li class="col-md-4"><span>4</span>
+				<p class="item">	Эффективно работает для повторных продаж существующим клиентам</p>
+			</li>
+		</ul>
+		</div>
+
+		</div>
+		<div class="row">
+		    <div class="companies">
+					<img src="img/logo1/Apps-Siebel1.png" alt="">
+					<img src="img/logo1/dynamics-crm.png" alt="">
+					<img src="img/logo1/lotus_logo.png" alt="">
+					<img src="img/logo1/terrasoft_logo.png" alt="">
+					<img src="img/logo1/1C_Company_-_Logo_(English_Version).jpg" alt="">
+					<img src="img/logo1/logo-2015.png" alt="">
+				</div>
+		</div>
+	</div>
+
+
+		<div class="tab-pane" id="BI">
+		<p class="add">BI (Business Intelligence) бизнес аналитика. BI – Все отчеты о работе компании в одном окне. В связи с повышением конкуренции на рынках продаж и усложнением структуры бизнеса появился класс систем оперативной отчетности, которые решают следующие задачи: </p>
+		<div class="listik">
+			<ul class="list">
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Оперативность получения отчетности о работе компании ( отчетов))</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Достоверность отчетов </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Прозрачность о работе бизнеса</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Соответствие отчетов разного уровня, для собственника/руководителей/начальников/исполнителей </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Система сбалансированных показателей(KPI), которая оперативно информируют об изменениях </li>
+			</ul>
+		</div>
+<div class="pluses">
+			<p class="plus">Выгоды:</p>
+<ul class="pluslist">
+	<div class="row">
+			<li class="col-md-4"><span>1</span>
+				<p class="item"> 	На любой новый отчет о работе компании – отдела – сотрудника затрачивается минимальное время от 1 минуты до 3х часов, в зависимости от сложности отчета</p>
+			</li>
+			<li class="col-md-4"><span>2</span>
+				<p class="item">	 	Позволяет детализировать любой показатель бизнеса до базовых составляющих
+				(Пример: Точная сумма/процентная составляющая/доля себестоимости продаж за продвижение бренда/продукта/услуги в канале сбыта начисления конкретному менеджеру.)
+				</p>
+			</li>
+			<li class="col-md-4"><span>3</span>
+				<p class="item"> 	Отчеты разного уровня  формируются на основе единого источника, что обеспечивает согласованность цифр в отчетах вне зависимости от уровня детализации	</p>
+			</li>
+			</div>
+			<div class="row">
+			<li class="col-md-4"><span>4</span>
+				<p class="item"> 	Оперативное информирование об изменениях ключевых показателей (маржинальность продаж/доходность инвестиций/изменение себестоимости и т.д.)</p>
+			</li>
+			<li class="col-md-4"><span>4</span>
+				<p class="item">  	Система сбалансированных показателей позволяет обнаружить и конкретизировать причину (сотрудник или поставщик или любой другой показатель) влияющую на снижение прибыли в реальном времени</p>
+			</li>
+			</div>
+		</ul>
+		</div>
+		<div class="row">
+		    <div class="companies">
+					<img src="img/logo1/Apps-Siebel1.png" alt="">
+					<img src="img/logo1/dynamics-crm.png" alt="">
+					<img src="img/logo1/lotus_logo.png" alt="">
+					<img src="img/logo1/terrasoft_logo.png" alt="">
+					<img src="img/logo1/1C_Company_-_Logo_(English_Version).jpg" alt="">
+					<img src="img/logo1/logo-2015.png" alt="">
+				</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="CSM">
+		<p class="add">CSM (Content system management) Система управления контентом. Данный класс систем является развитием обычной электронной почты. Используется для совместной работы и общения в рамках внутренних и внешних проектов и позволяет решить следующие задачи:</p>
+		<div class="listik">
+			<ul class="list">
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Организация совместной работы над проектами</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Управление содержимым: хранение, контроль версий, соблюдение режима доступа, управление потоков документов и т.п.</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Поиск по содержимому в удобном виде</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Электронный документооборот и согласование документов коммерческие предложения/договора)</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Отслеживание указаний/распоряжений/поручений</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Быстрое развёртывание внутренних порталов обслуживающих подразделений (снабжение/поддержка/юристы/договора)</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Быстрое создание сайтов для клиентов/партнеров(размещение заказа/ отслеживание поставки)</li>
+			</ul>
+		</div>
+<div class="pluses">
+			<p class="plus">Выгоды:</p>
+<div class="row">
+<ul class="pluslist">
+			<li class="col-md-4"><span>1</span>
+				<p class="item">	На любой новый отчет о работе компании – отдела – сотрудника затрачивается минимальное время от 1 минуты до 3х часов, в зависимости от сложности отчета </p>
+			</li>
+			<li class="col-md-4"><span>2</span>
+				<p class="item"> 	Исключается человеческий фактор, который снижает достоверность данных</p>
+			</li>
+			<li class="col-md-4"><span>3</span>
+				<p class="item"> 	Позволяет детализировать любой показатель бизнеса до базовых составляющих
+(Пример: Точная сумма/процентная составляющая/доля себестоимости продаж за продвижение бренда/продукта/услуги в канале сбыта начисления конкретному менеджеру.)
+</p>
+			</li>
+			<li class="col-md-4"><span>4</span>
+				<p class="item"> 	Отчеты разного уровня  формируются на основе единого источника, что обеспечивает согласованность цифр в отчетах вне зависимости от уровня детализации</p>
+			</li>
+			<li class="col-md-4"><span>5</span>
+				<p class="item"> 	Оперативное информирование об изменениях ключевых показателей (маржинальность продаж/доходность инвестиций/изменение себестоимости и т.д.)</p>
+			</li>
+			<li class="col-md-4"><span>6</span>
+				<p class="item">	Оперативное информирование об изменениях ключевых показателей (маржинальность продаж/доходность инвестиций/изменение себестоимости и т.д.) </p>
+			</li>
+			 
+		</ul>
+		</div>
+
+		</div>
+		<div class="row">
+		    <div class="companies">
+				 <img src="img/logo1/Apps-Siebel1.png" alt="">
+				 <img src="img/logo1/cognos-logo.png" alt="">
+				 <img src="img/logo1/SAP_AG.png" alt="">
+				</div>
+		</div>
+	</div>
+
+<div class="tab-pane" id="WMS">
+		<p class="add">BI (Business Intelligence) бизнес аналитика. BI – Все отчеты о работе компании в одном окне. В связи с повышением конкуренции на рынках продаж и усложнением структуры бизнеса появился класс систем оперативной отчетности, которые решают следующие задачи: </p>
+		<div class="listik">
+			<ul class="list">
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Оперативность получения отчетности о работе компании ( отчетов))</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Достоверность отчетов </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Прозрачность о работе бизнеса</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Соответствие отчетов разного уровня, для собственника/руководителей/начальников/исполнителей </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Система сбалансированных показателей(KPI), которая оперативно информируют об изменениях </li>
+			</ul>
+		</div>
+<div class="pluses">
+			<p class="plus">Выгоды:</p>
+<ul class="pluslist">
+	<div class="row">
+			<li class="col-md-4"><span>1</span>
+				<p class="item"> 	На любой новый отчет о работе компании – отдела – сотрудника затрачивается минимальное время от 1 минуты до 3х часов, в зависимости от сложности отчета</p>
+			</li>
+			<li class="col-md-4"><span>2</span>
+				<p class="item">	 	Позволяет детализировать любой показатель бизнеса до базовых составляющих
+				(Пример: Точная сумма/процентная составляющая/доля себестоимости продаж за продвижение бренда/продукта/услуги в канале сбыта начисления конкретному менеджеру.)
+				</p>
+			</li>
+			<li class="col-md-4"><span>3</span>
+				<p class="item"> 	Отчеты разного уровня  формируются на основе единого источника, что обеспечивает согласованность цифр в отчетах вне зависимости от уровня детализации	</p>
+			</li>
+			</div>
+			<div class="row">
+			<li class="col-md-4"><span>4</span>
+				<p class="item"> 	Оперативное информирование об изменениях ключевых показателей (маржинальность продаж/доходность инвестиций/изменение себестоимости и т.д.)</p>
+			</li>
+			<li class="col-md-4"><span>4</span>
+				<p class="item">  	Система сбалансированных показателей позволяет обнаружить и конкретизировать причину (сотрудник или поставщик или любой другой показатель) влияющую на снижение прибыли в реальном времени</p>
+			</li>
+			</div>
+		</ul>
+		</div>
+		<div class="row">
+		    <div class="companies">
+					<img src="img/logo1/Apps-Siebel1.png" alt="">
+					<img src="img/logo1/dynamics-crm.png" alt="">
+					<img src="img/logo1/lotus_logo.png" alt="">
+					<img src="img/logo1/terrasoft_logo.png" alt="">
+					<img src="img/logo1/1C_Company_-_Logo_(English_Version).jpg" alt="">
+					<img src="img/logo1/logo-2015.png" alt="">
+				</div>
+		</div>
+	</div>
+
+
+<div class="tab-pane" id="IT">
+		<p class="add"> It инфраструктура – это совокупность оборудования, программного обеспечения и каналов связи для которого определен стандарт iso 12345. </p>
+		<p class="dop">It инфраструктура (iso 12345)  позволяет своевременно реагировать на отказы узлов системы, противостоять внутренним угрозам и внешним атакам. Основные функции заключаются:</p>
+		<div class="listik">
+			<ul class="list">
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Оперативное восстановление работоспособности системы после сбоев</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Обеспечить стабильную работу It в круглосуточном режиме</li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Исключить простои из-за отказа оборудования или человеческого фактора </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>Обеспечить безопасность конфиденциальных данных и защитить их от несанкцианированного доступа </li>
+				<li><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Обеспечение защиты It инфраструктуры (iso 12345)   от внешних угроз</li>
+				 
+			</ul>
+		</div>
+<div class="pluses">
+			<p class="plus">Выгоды:</p>
+<ul class="pluslist">
+	<div class="row">
+			<li class="col-md-4"><span>1</span>
+				<p class="item"> Снижение затрат на обслуживание It инфраструктуры	 </p>
+			</li>
+			<li class="col-md-4"><span>2</span>
+				<p class="item">	Бизнес находится в рабочем состоянии 24/7 все всегда онлайн
+				</p>
+			</li>
+			<li class="col-md-4"><span>3</span>
+				<p class="item"> Универсальные и типовые решения It инфраструктура (iso 12345) позволяют с легкостью подобрать обслуживающий ее персонал либо заказать на аутсорсе	</p>
+			</li>
+			</div>
+			<div class="row">
+			<li class="col-md-4"><span>4</span>
+				<p class="item"> 	Быстрое развертывание необходимого ПО, без необходимости глубокой модернизации It инфраструктура (iso 12345) </p>
+			</li>
+			<li class="col-md-4"><span>5</span>
+				<p class="item">  It инфраструктура (iso 12345)  позволяет с минимальными издержками перейти на новые стандарты</p>
+			</li>
+			</div>
+		</ul>
+		</div>
+	</div>
+</div>
+</div>
+	<div class="why">
+		<p class="why_name">Почему Вам необходимо обратиться к нам!</p>
+		<p class="why_add">Любой бизнес сталкивается с определенным моментом, когда человеческие ресурсы неоправданно увеличивают как финансовые, так и временные затраты на обработку различных данных. Что несет в себе потерю клиентов, прибыли и времени!</p>
+		<div class="row">
+			<div class="why_item col-md-3">
+				<div class="why_inner">
+				<div class="why_krug"></div>
+					<img src="img/icons/16.png" alt="" class="why_img">
+					<p class="why_text"> 	собственный успешный опыт развития компании с количеством сотрудников более 1000 человек</p></div>
+			</div>
+			<div class="why_item col-md-3">
+			<div class="why_inner">
+			<div class="why_krug"></div>
+					<img src="img/icons/17.png" alt="" class="why_img">
+					<p class="why_text">	Опыт команды более 15 лет, средний возраст сотрудников 32 года</p>
+						</div>
+						</div>
+			<div class="why_item col-md-3">
+			<div class="why_inner">
+			<div class="why_krug"></div>
+				<img src="img/icons/18.png" alt="" class="why_img">
+				<p class="why_text"> 	Подберем идеальную систему для Вашего бизнеса используя соотношение бюджета/пожеланий/требований к системе/сроки</p>
+						</div>
+						</div>
+			<div class="why_item col-md-3">
+			<div class="why_inner">
+			<div class="why_krug"></div>
+				<img src="img/icons/19.png" alt="" class="why_img">
+				<p class="why_text">	Мы знаем, что вам потребуется внедрять в будущем!  Подойдем к вопросу с позиции экономии вашего времени, усилий и финансовых затрат!</p>
+						</div></div>
+		</div>
+		<div class="row">
+			<div class="why_item col-md-3">
+			<div class="why_inner">
+			<div class="why_krug"></div>
+				<img src="img/icons/20.png" alt="" class="why_img">
+				<p class="why_text">Внедрим, адаптируем, обучим пользоваться Вас и ваших сотрудников</p>
+						</div></div>
+			<div class="why_item col-md-3">
+			<div class="why_inner"><div class="why_krug"></div>
+				<img src="img/icons/21.png" alt="" class="why_img">
+				<p class="why_text">Обеспечим любой стандарт отчетности, как и Российский, так и международный!</p></div>
+			</div>
+			<div class="why_item col-md-3">
+			<div class="why_inner"><div class="why_krug"></div>
+				<img src="img/icons/22.png" alt="" class="why_img">
+				<p class="why_text">	Обеспечим бесплатную гарантийную поддержку в течении 2х лет!</p></div>
+			</div>
+			<div class="why_item col-md-3">
+			<div class="why_inner"><div class="why_krug"></div>
+				<img src="img/icons/23.png" alt="" class="why_img">
+				<p class="why_text">	Бесплатно обновим программное обеспечение в течении 6 месяцев после внедрения! </p></div>
+			</div>
+		</div>
+	</div>
+
+<div class="suggestion">
+	<p class="suggestion_main">Мы предложим Вам одни из самых выгодных условий как по срокам, так и по стоимости!</p>
+</div>
+	<p class="etaps_name">Этапы работ</p>
+	<div class="etaps">
+	<a data-toggle="tab" href="#etap1" class="etap etap1">
+		<div class="innerik">
+			<div class="innerik_forimg">
+				<img src="img/icons/24red.png">
+			</div>
+			<p class="innerik_name">1 Этап</p>
+			<p class="innerik_dop">Предварительный</p>
+		</div>
+	</a>
+	<a data-toggle="tab" href="#etap2" class="etap etap2">
+		<div class="innerik">
+			<div class="innerik_forimg">
+				<img src="img/icons/25red.png">
+			</div>
+			<p class="innerik_name">2 Этап</p>
+			<p class="innerik_dop">ТЗ</p>
+		</div>
+	</a>
+	<a data-toggle="tab" href="#etap3" class="etap etap3">
+		<div class="innerik">
+			<div class="innerik_forimg">
+				<img src="img/icons/26red.png">
+			</div>
+			<p class="innerik_name">3 Этап</p>
+			<p class="innerik_dop">Проект</p>
+		</div>
+	</a>
+	<a  data-toggle="tab" href="#etap4" class="etap etap4">
+		<div class="innerik">
+			<div class="innerik_forimg">
+				<img src="img/icons/27red.png">
+			</div>
+			<p class="innerik_name">4 Этап</p>
+			<p class="innerik_dop">Промышленная эксплуатация</p>
+		</div>
+	</a>
+	<a data-toggle="tab" href="#etap5" class="etap etap5">
+		<div class="innerik">
+			<div class="innerik_forimg">
+				<img src="img/icons/28red.png">
+			</div>
+			<p class="innerik_name">5 Этап</p>
+			<p class="innerik_dop">Гарантийное обслуживание</p>
+		</div>
+	</a>
+</div>
+
+<div class="tab-content">
+	<div class="tab-pane active" id="etap1">
+	<div class="steps">
+		<div class="step">
+			<p class="step_name">Шаг 1</p>
+			<p class="step_add">Звонок</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 2</p>
+			<p class="step_add">Консультация</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 3</p>
+			<p class="step_add">Встреча</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 4</p>
+			<p class="step_add">Договор на ТЗ</p>
+		</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="etap2">
+		<div class="steps"><div class="step">
+			<p class="step_name">Шаг 1</p>
+			<p class="step_add">Формулировка требований к автоматизации</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 2</p>
+			<p class="step_add">Обследование</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 3</p>
+			<p class="step_add">Предварительное ТЗ</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 4</p>
+			<p class="step_add">Согласование ТЗ</p>
+		</div></div>
+	</div>
+	<div class="tab-pane" id="etap3">
+		<div class="steps">
+		<div class="step">
+			<p class="step_name">Шаг 1</p>
+			<p class="step_add">Утверждение проектной команды</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 2</p>
+			<p class="step_add">Согласование сроков/этапов работ</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 3</p>
+			<p class="step_add">Исполнение этапа</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 4</p>
+			<p class="step_add">Приемка этапа</p>
+		</div></div>
+	</div>
+	<div class="tab-pane" id="etap4">
+		<div class="steps">
+		<div class="step">
+			<p class="step_name">Шаг 1</p>
+			<p class="step_add">Подготовка и согласование документации по проекту</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 2</p>
+			<p class="step_add">Создание и передача инструкций на  рабочие места</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 3</p>
+			<p class="step_add">Обучение сотрудников</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 4</p>
+			<p class="step_add">Обучение службы поддержки</p>
+		</div></p>
+	</div>
+	</div>
+	<div class="tab-pane" id="etap5">
+		<div class="steps">
+		<div class="step">
+			<p class="step_name">Шаг 1</p>
+			<p class="step_add">Фиксация замечаний/доп. требований</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 2</p>
+			<p class="step_add">Согласование сроков/этапов работ</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 3</p>
+			<p class="step_add">Исполненние этапат</p>
+		</div>
+		<div class="step">
+			<p class="step_name">Шаг 4</p>
+			<p class="step_add">Приемка этапа</p>
+		</div></div>
+	</div>
+	</div>
+<div class="dover">
+	<p class="dover_name">Нам доверяют</p>
+	<div class="images"><img src="img/logo2/logo.png" alt="">
+		<img src="img/logo2/becema.png" alt="">
+		<img src="img/logo2/logo1.png" alt="">
+		<img src="img/logo2/logo (1).png" alt="">
+		<img src="img/logo2/logo-img.png" alt=""></div>
+	<div class="suggest">
+		<div class="row"><p class="suggest_name col-md-8">Еще мы можем предложить</p>
+		</div>
+		<ul class="suggest_list">
+		<div class="row">
+			<li class="item2 col-md-4 ">Поддержка 24/7</li>
+			<li class="item2 col-md-4  ">Выезд на объект заказчика в течение 3-х часов</li>
+			</div>
+			<div class="row">
+			<li class="item2 col-md-4">Мы работаем по всей России</li>
+			<li class="item2 col-md-4">Полное сопровождение вашей ИТ среды </li>
+			</div>
+			<div class="row">
+			<li class="item2 col-md-4 ">Поставка и наладка оборудования</li>
+			<li class="item2 col-md-4 ">Минимальные цены среди конкурентов</li>
+			</div>
+			<div class="row">
+			<li class="item2 col-md-4">Душевный разговор <i class="fa fa-smile-o" aria-hidden="true"></i></li>
+			</div>
+			<div class="row">
+				<div class="zakazat col-md-4">
+					<a href="" class="zakaz">Заказать </a>
+				</div>
+					<p class="addzakaz col-md-5">Закажите бесплатное техническое задание!</p>
+				</div>
+		</ul>
+	</div>
+</div>
+<div class="footer">
+	<p class="footer_adress">ООО «ВИДЕО ПРАВИЛА» Можайское ш 112А , работаем с учетом НДС 18% </p>
+	<div class="footer_tel">+7 (495) 380-37-74</div>
+	<div class="footer_mail ">info@it-rules.ru</div>
+	
+	</div>
 	</div>
 </div>
  
