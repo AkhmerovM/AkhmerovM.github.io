@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Химчистка</title>
+
+ 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+ 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<link rel="shortcut icon" href="img/faviconka.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+</head>
+<body>
+ <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+ <script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript">
+	var map;
+            DG.then(function () {
+                map = DG.map('map', {
+                    center: [53.82506108559506, 87.16322],
+                    zoom: 16
+                });
+                DG.marker([53.82506108559506, 87.16322]).addTo(map).bindPopup('Фабрика химчистки ООО "Благоустройство Запсиба');
+                DG.marker([53.7564, 87.1357]).addTo(map).bindPopup('Фабрика химчистки ООО "Благоустройство Запсиба');
+                
+            });
+
+</script>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<div class="header">
+
+<div class="container">
+	<div class="header_top">
+		<div class="row">
+		<div class="col-xs-3">
+			<div class="adress_block">
+				<div class="adress">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<p class="town">г. Новокузнецк</p>
+					<p class="street">Шоссе Космическое 16</p>
+				</div></div></div>
+		<div class="col-xs-5  col-xs-offset-1">
+			<div class="logo_block">
+				<a class="logo" href="index.html">
+					<p class="logo_name">Фабрика химчистки</p>
+					<p class="logo_add">ООО "Благоустройство Запсиба"</p>
+				</a></div></div>
+		<div class="col-xs-3">
+			<div class="tel_block">
+				<div class="tel">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<p class="tel">8 (3843) 59 - 09 - 97</p>
+				</div></div></div>
+	</div>
+	</div>
+</div>
+<div class="header_menu">
+	<div class="container">
+		<div class="menu">
+			<ul class="menu_list">
+				<li class="menu_item"><a href="index.html" class="menu_link "> Главная</a></li>
+				<li class="menu_item"><a href="prices.html" class="menu_link">Цены</a></li>
+				<li class="menu_item"><a href="contacts.html" class="menu_link">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+
+	<div class="contacts">
+	<p class="main_name  wow bounceInLeft">Адреса приемных пунктов</p>
+	<div id="map" style="width:100%; height:200px"></div>
+		<ul class="contacts_list">
+			<li class=" wow bounceInLeft">
+				<div class="info wow bounceInLeft">
+					<div class="contacts_adress"><a href=""><strong> пр. Бардина 42</strong></a>, офис 320<br> <i class="fa fa-mobile" aria-hidden="true"></i>т.: 8(3843) 46-36-44</div>
+					<div class="contacts_time">
+					<b>Пн</b>  <u>Выходной</u><br>
+					<b>Вт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 14:00-14:30<br>
+					<b>Ср</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 14:00-14:30<br>
+					<b>Чт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 14:00-14:30<br>
+					<b>Пт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 14:00-14:30<br>
+					<b>Сб</b>  10:00 - 17:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 14:00-14:30<br>
+					<b>Вс</b>  <u>Выходной</u>
+				</div></div>
+			</li>
+			<li class="wow bounceInRight">
+				<div class="info ">
+					<div class="contacts_adress"><a href=""><strong>ул. Тореза 75</strong></a>, магазин "Гарус" <br> <i class="fa fa-phone" aria-hidden="true"></i> т.: 8-913-415-15-48</div>
+					<div class="contacts_time">
+					<b>Пн</b>  <u>Выходной</u><br>
+					<b>Вт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 13:00-13:30<br>
+					<b>Ср</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 13:00-13:30<br>
+					<b>Чт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 13:00-13:30<br>
+					<b>Пт</b>  10:00 - 18:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 13:00-13:30<br>
+					<b>Сб</b>  10:00 - 17:00  <i class="fa fa-coffee" aria-hidden="true"></i> Обед 13:00-13:30<br>
+					<b>Вс</b>  <u>Выходной</u>
+					</div>
+				</div>
+			</li>
+		</ul>
+			
+
+	</div>
+	 <footer>
+ 	<div class="footer">
+ 		<div class="container">
+ 		    <ul class="footer_list">
+ 		 			<li class="footer_item"><a class="footer_link" href="prices.html">&#10095 Цены</a></li>
+ 		 			<li class="footer_item"><a class="footer_link" href="contacts.html">&#10095 Контакты</a></li>
+ 		 		</ul>
+ 		 		<div class="col-xs-8"><p class="footer_date">©2005-2017 Фабрика химчистки ООО "Благоустройство Запсиба"</p>
+ 		 		 		 		<p class="footer_adress">Наш адрес: г. Новокузнецк  Шоссе космическое 16 (вход по пропускам), тел. 8(3843) 59 - 09 - 97</p></div>
+ 		 		 <div class="col-xs-4 counte">
+ 		 		<!-- Yandex.Metrika informer --> <a href="https://metrika.yandex.ru/stat/?id=45800898&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/45800898/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="45800898" data-lang="ru" /></a> <!-- /Yandex.Metrika informer --> <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45800898 = new Ya.Metrika({ id:45800898, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45800898" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+ 		 	</div>
+ 		 	</div>
+ 	</div>
+ </footer>
+ 
+
+</body>
+</html>

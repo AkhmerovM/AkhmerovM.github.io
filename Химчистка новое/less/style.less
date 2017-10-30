@@ -1,0 +1,563 @@
+@font-face {
+	font-family: 'Franklin Gothic Demi';
+	src: url('../fonts/FranklinGothic-Demi.eot');
+	src: url('../fonts/FranklinGothic-Demi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FranklinGothic-Demi.woff') format('woff'),
+		url('../fonts/FranklinGothic-Demi.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.demi{
+	font-family:'Franklin Gothic Demi', arial ;
+}
+.sans{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+html{
+	font-size: 10px;
+	min-width: 550px;
+	a,a:hover,a:active{
+	text-decoration: none;
+	transition: all .3s;
+	}
+	body{
+		min-width: 550px;
+	}
+.header{
+.header_top{
+	height: 15rem;
+	.adress_block{
+		.sans;
+		font-size: 2.5rem;
+		height: 15rem;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-ms-align-items: center;
+		align-items: center;
+		i{
+			color: #22dd1d;
+		}
+		.town{
+		display: inline-block;
+		margin-bottom: 0;
+		}
+		.street{
+			margin-bottom: 0;
+		}
+	}
+	.logo_block{
+		height: 15rem;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		.logo_name{
+		color: #22dd1d;
+		.demi;
+		text-transform: uppercase;
+		font-size: 5rem;
+		margin-bottom: 0;
+		text-align: center;
+		}
+		.logo_add{
+			text-align: center;
+			color: #3eb2f5;
+			.demi;
+			font-size: 2rem;
+		}
+	}
+	.tel_block{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		height: 15rem;
+		justify-content: flex-end;
+		.tel{
+
+			.sans;
+			font-size: 3rem;
+			i{
+			display: inline;
+			color: #22dd1d;
+			}
+			.tel{
+			display: inline-block;
+			margin-left: 0.5rem;
+			}
+		}
+	}
+}
+	.header_menu{
+		height: 7rem;
+		background-color: #3eb2f5;
+		.menu{
+
+			height: 7rem;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
+				align-items: center;
+			.menu_list{
+				list-style: none;
+				padding-left: 0;
+				margin-bottom: 0;
+
+				.menu_item{
+					position: relative;
+					display: inline-block;
+					margin-right: 2rem;
+					line-height: 7rem;
+					.menu_link{
+					display: inline-block;
+					color: white;
+					
+
+					.demi;
+					font-size: 2rem;
+					}
+					.menu_link:hover{
+					&:after{
+					content: "";
+
+				    display: block;
+				    position: absolute;
+				    left: 0;
+				    width: 100%;
+				    height: 6px;
+				    background: #33d65b;
+				    bottom: 1px;
+					}}
+				}
+			}
+		}
+	}
+}
+.slider{
+	height: 600px;
+	.slider1{
+		background: url("../img/shirts.jpeg" );
+		background-repeat: no-repeat;
+    	background-position: center center;
+    	background-size: cover;
+    	height: 100%;
+		.text{
+		margin-bottom: 0;
+		text-align: center;
+		color: #4A4545 ;
+		.demi;
+		font-size: 4rem;
+		text-shadow: 0 0 5px  white;
+		padding-top: 20rem;
+		}
+	}
+}
+.advantages{
+	height: 30rem;
+	.block{
+		position:  relative;
+		top: -3rem;
+		transition: all 1s ease-out 0s;
+		text-align: center;
+		width: 100%;
+		height: 30rem;
+		.block_icon{
+		width: 25%;
+		height: 30%;
+		margin-top: 4rem;
+		}
+		.block_text{
+		color: white;
+		.sans;
+		font-size: 3rem;
+		margin-top: 6rem;
+		}
+	}
+	.block:hover{	
+		.block{
+			border: 2px solid black;
+		}
+		.block_icon{
+			position: relative;
+			top: -1rem;
+		width: 30%;
+		height: 35%;
+	}
+		.block_text{
+			margin-top: 2rem;
+		}
+	}
+}
+.aboutcompany{
+	position: relative;
+	margin-top: 5rem;
+
+	.company_name{
+	.sans;
+	margin-bottom: 5rem;
+	font-size: 4rem;
+	text-align: center;
+	&:after{
+		margin-top: 2rem;
+	content: '';
+    width: 75px;
+    height: 3px;
+    background: #33d65b;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -37px;
+	}
+	}
+
+	.company_img{
+		width: 50%;
+		float: left;
+		margin: 0 2rem;
+		margin-bottom: 5rem;
+	}
+	.company_text{
+	
+	}
+}
+
+		.footer{
+			font-size: 1.5rem;
+			padding-top: 2rem;
+			padding-bottom: 1rem;
+			color: white;
+			.sans;
+			background-color: #3eb2f5;
+			.footer_list{
+				padding-left: 0;
+				margin-bottom: 2rem;
+				list-style: none;
+				.footer_item{
+					margin-bottom: 1rem;
+					.footer_link{
+					color: white;
+					}
+				}
+			}
+			.col-xs-8{
+				padding: 0;
+			}
+			.counte{
+			text-align: right;
+			}
+		}
+				.prices{
+			.prices_name{
+			font-size: 2rem;
+			text-align: center;
+			.sans;
+			}
+			.prices_tables{
+					.one{
+						th:last-child{
+						width: 10%;
+						text-align: center;
+						}
+						}
+				table{
+					.sans;
+					font-size: 2rem;
+					margin: auto;
+					margin-top: 2rem;
+					margin-bottom: 2rem;
+					width: 80%;
+
+					tr{
+						th{
+							padding: 5px;
+							border: 1px solid black;
+							background-color: #575757;
+							color: white;
+						}
+						td{
+
+							padding: 5px;
+							border: 1px solid black;
+						}
+						td:first-child{
+						width: 30%;
+						}
+						td:last-child{
+						width: 10%;
+						text-align: center;
+						}
+					}
+					tr:nth-child(2n+1){
+						background-color: #D3F0FD;
+					}
+					tr:hover{
+						background-color: #C8FECC;
+					}
+				}
+			}
+		}
+	.contacts{
+		.main_name{
+			.sans;
+			font-size: 3rem;
+			text-align: center;
+		}
+		.contacts_list{
+			list-style-type: none;
+			margin: 4rem auto;
+			text-align: center;
+			li{
+				padding: 2rem;
+				background-color:  #D0FDBE;
+				text-align: left;
+				display: inline-block;
+				margin-right: 4rem;
+				.info{
+					.contacts_adress{
+					i{
+						color: #3eb2f5;
+					}
+					}
+				.contacts_time{
+				b,i{
+					color: #3eb2f5;
+				}
+				}	
+				}
+			}
+		}
+	}
+	
+}
+@media screen and (max-width: 500px){
+
+html{
+
+	font-size: 7px !important;
+	}
+.header_top{
+	.adress_block{
+	font-size: 2rem !important;
+		}
+	}
+	.logo_block{
+		
+		.logo_name{
+	font-size: 2.5rem !important;
+		}
+		.logo_add{
+			font-size: 1.8rem !important;
+		}
+	}
+	.tel_block{
+		.tel{
+
+			font-size: 1.7rem !important;
+		}
+	}
+	.advantages{
+		.block_text{
+			font-size: 2rem !important;
+		}
+	}
+	.slider{
+		height: 400px !important;
+	}
+	.company_img{
+	margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (min-width: 500px){
+
+html{
+
+	font-size: 7px !important;
+	}
+.header_top{
+	.adress_block{
+	font-size: 2rem !important;
+		}
+	}
+	.logo_block{
+		
+		.logo_name{
+	font-size: 2.5rem !important;
+		}
+		.logo_add{
+			font-size: 1.8rem !important;
+		}
+	}
+	.tel_block{
+		.tel{
+
+			font-size: 1.7rem !important;
+		}
+	}
+	.advantages{
+		.block_text{
+			font-size: 2rem !important;
+		}
+	}
+	.slider{
+		height: 400px !important;
+	}
+	.company_img{
+	margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (min-width: 800px){
+
+html{
+	font-size: 7px !important;
+	}
+.header_top{
+	.adress_block{
+	font-size: 2.5rem !important;
+		i{
+			
+		}
+		.town{
+		
+		}
+		.street{
+		
+		}
+	}
+	.logo_block{
+		
+		.logo_name{
+	
+		}
+		.logo_add{
+			
+		}
+	}
+	.tel_block{
+		
+		.tel{
+font-size: 2.5rem !important;
+			
+			}
+			.tel{
+			}
+		}
+	}
+	.advantages{
+		.block_text{
+			font-size: 2rem !important;
+		}
+	}
+	.slider{
+		height: 500px !important;
+	}
+	.company_img{
+	margin-bottom: 0 !important;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+
+html{
+	font-size: 9px !important;
+	}
+.header_top{
+	.adress_block{
+	
+		i{
+			
+		}
+		.town{
+		
+		}
+		.street{
+		
+		}
+	}
+	.logo_block{
+		
+		.logo_name{
+	
+		}
+		.logo_add{
+			
+		}
+	}
+	.tel_block{
+		
+		.tel{
+
+			
+			}
+			.tel{
+			
+			}
+		}
+	}
+	.advantages{
+		.block_text{
+			font-size: 2rem !important;
+		}
+	}
+	.slider{
+		height: 600px !important;
+	}
+	.company_img{
+	margin-bottom: 5rem !important;
+	}
+}
+
+
+@media screen and (min-width: 1280px){
+
+html{
+	font-size: 10px !important;
+	}
+.header_top{
+	.adress_block{
+	
+		i{
+			
+		}
+		.town{
+		
+		}
+		.street{
+		
+		}
+	}
+	.logo_block{
+		
+		.logo_name{
+	font-size: 3.5rem !important;
+		}
+		.logo_add{
+			
+		}
+	}
+	.tel_block{
+		
+		.tel{
+
+			
+			}
+			.tel{
+			
+			}
+		}
+	}
+	.company_img{
+	margin-bottom: 5rem !important;
+	}
+}
